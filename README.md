@@ -13,6 +13,13 @@ Script Python dùng GitLab API để **sao lưu (dump) CI/CD Variables** từ m�
 ## Yêu cầu
 
 - Python 3.7+
+- Virtual Env
+```
+apt update && apt install -y python3.12-venv
+python3 -m venv venv
+source venv/bin/activate
+deactivate
+```
 - Thư viện `requests`
 
 ```bash
